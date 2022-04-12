@@ -1,7 +1,7 @@
 import * as axios from "axios";
 
 const instance = axios.create({
-    baseURL: 'http://api.openweathermap.org/data/2.5/'
+    baseURL: 'https://api.openweathermap.org/data/2.5/'
 });
 const key = '355b822056cb9f7afe847b9c25ae58eb';
 
